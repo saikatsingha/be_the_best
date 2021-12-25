@@ -10,7 +10,7 @@ class Product_type(models.Model):
         return self.product_name
 
 
-class Mobile_details(models.Model):
+class Product_details(models.Model):
     company_name = models.CharField(max_length=200, unique = True)
     price = models.FloatField(null=True, blank=True)
     photo = models.CharField(max_length=100, blank=True, default=None)
