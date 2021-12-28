@@ -20,3 +20,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('mobiles/', include('mobiles.urls')),
 ]
+
