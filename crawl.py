@@ -24,16 +24,6 @@ while(True):
    if p > 30:
       break
 
-   # options = selenium.webdriver.FirefoxOptions()
-   # options.add_argument("--headless")
-
-   # driver = selenium.webdriver.Firefox(options=options)
-   # driver.get('https://www.python.org/')
-   # print(driver.title)
-   # driver.close()
-
-
-
    driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
    # driver = webdriver.Firefox()
    driver.get("https://www.flipkart.com/mobiles/pr?sid=tyy%2C4io&marketplace=FLIPKART&page="+str(p))
