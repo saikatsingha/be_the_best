@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "create-react-app": "^5.0.0"
+    "node": "^17.3.0"
   }
 }
